@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex2</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <style>
+        main {
+           width: 40%;
+           margin: auto;
+          padding: 3rem;
+        }
+    </style>
+    
+    <main>
+        <h1>Calcule seu IMC</h1>
+        <div>
+            <label for="weight">Insira seu peso (kg): </label>
+            <input id="weight" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="height">Insira sua altura (cm): </label>
+            <input id="height" type="text">
+        </div>
+        <br>
+        <button onclick="calcImc()" id="button">Calcular</button>
+        <button onclick="clearImc()">Limpar</button>
+
+        <p id="result">Seu IMC é:</p>   
+    </main>
+</body>
+</html>
