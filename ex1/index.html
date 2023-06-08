@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <style>
+        main {
+           width: 40%;
+           margin: auto;
+          padding: 3rem;
+        }
+    </style>
+<main>
+    <h1>Calcule a média</h1>
+    <p>Insira <strong>três</strong> números e calcule a média aritmética entre eles:</p>
+
+        <div>
+            <label for="number1">Primeiro número:</label>
+            <input id="number1" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="number2">Segundo número:</label>
+            <input id="number2" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="number3">Terceiro número:</label>
+            <input id="number3" type="text">
+        </div>
+        <br>
+        <button onclick="calcMedia()" id="button">Calcular</button>
+        <button onclick="clearInput()">Limpar</button>
+
+        <p id="result"></p>   
+    </main>
+            
+</body>
+</html>
