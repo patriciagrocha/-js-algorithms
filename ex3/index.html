@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex3</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <style>
+        main {
+            width: 40%;
+            margin: auto;
+            padding: 3rem;
+        }
+    </style>
+
+    <main>
+        <h1>Cadastro de aluno</h1>
+        <div>
+            <label for="name">Nome completo: </label>
+            <input id="name" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="age">Idade: </label>
+            <input id="age" type="text">
+        </div>
+        <br>
+        <button onclick="postStudent()" id="button">Cadastrar</button>
+        <button onclick="clearStudent()">Limpar</button>
+
+        <div>
+            <p>Aluno(a) cadastrado(a): </p>
+            <p id="studentName"> </p>
+            <p id="studentAge"> </p>
+        </div>
+    </main>
+
+</body>
+
+</html>
