@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex5</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <style>
+        main {
+            width: 40%;
+            margin: auto;
+            padding: 3rem;
+        }
+    </style>
+
+    <main>
+        <h1>Concatenação de Strings</h1>
+
+      <div>
+        <label for="firstName">Nome:</label>
+        <input type="text" id="firstName">
+        <label for="lastName">Sobrenome:</label>
+        <input type="text" id="lastName">
+      </div>
+      <br>
+
+      <p>Nome completo: <strong id="result"></strong></p>
+      
+      <button onclick="concatName()" > Concatenar</button>
+      <button onclick="clearInput()" >Limpar</button>
+
+    </main>
+    
+</body>
+</html>
