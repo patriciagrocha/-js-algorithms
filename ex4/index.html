@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex4</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <style>
+        main {
+            width: 40%;
+            margin: auto;
+            padding: 3rem;
+        }
+    </style>
+
+    <main>
+        <h1>Calcular média ponderada</h1>
+
+        <p>Nos campos abaixo insira as notas e seus respectivos pesos: </p>
+
+        <form action="" id="form">
+        <div>
+            <label for="note1">Primeira nota: </label>
+            <input type="text" name="" id="note1">
+            <label for="weight1">Peso: </label>
+            <input type="text" id="weight1">
+        </div>
+        <br>
+        <div>
+            <label for="note2">Segunda nota: </label>
+            <input type="text" name="" id="note2">
+            <label for="weight2">Peso: </label>
+            <input type="text" id="weight2">
+        </div>  
+        <br> 
+        <div>
+            <label for="note3">Terceira nota: </label>
+            <input type="text" name="" id="note3">
+            <label for="weight3">Peso: </label>
+            <input type="text" id="weight3">
+        </div>
+        <br>
+        <button onclick="calcMedia()" id="btnCalc" >Calcular</button>
+        <button onclick="clearInput()" id="btnClear" >Limpar</button>
+
+        <p>Média: <strong id="result"></strong> </p>
+        
+    </form>
+   
+
+    </main>
+</body>
+</html>
